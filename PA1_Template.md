@@ -1,17 +1,16 @@
+# Peer Assignment 1, Reproducible Research
+Author: Sachin Sangtani
+Created on: Oct 19, 2015
+
+
+
 ## Loading and preprocessing the data
 
-Loading the required libraries
+Loading the required libraries and reading the raw data
+
 
 ```r
 library(data.table)
-```
-
-```
-## data.table 1.9.4  For help type: ?data.table
-## *** NB: by=.EACHI is now explicit. See README to restore previous behaviour.
-```
-
-```r
 library(lattice)
 
 activity_data <- data.table(read.csv("activity.csv"))

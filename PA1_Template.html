@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-<title>Loading and preprocessing the data</title>
+<title>Peer Assignment 1, Reproducible Research</title>
 
 <script type="text/javascript">
 window.onload = function() {
@@ -201,18 +201,17 @@ hr {
 </head>
 
 <body>
+<h1>Peer Assignment 1, Reproducible Research</h1>
+
+<p>Author: Sachin Sangtani
+Created on: Oct 19, 2015</p>
+
 <h2>Loading and preprocessing the data</h2>
 
-<p>Loading the required libraries</p>
+<p>Loading the required libraries and reading the raw data</p>
 
 <pre><code class="r">library(data.table)
-</code></pre>
-
-<pre><code>## data.table 1.9.4  For help type: ?data.table
-## *** NB: by=.EACHI is now explicit. See README to restore previous behaviour.
-</code></pre>
-
-<pre><code class="r">library(lattice)
+library(lattice)
 
 activity_data &lt;- data.table(read.csv(&quot;activity.csv&quot;))
 </code></pre>
